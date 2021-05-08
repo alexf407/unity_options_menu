@@ -144,7 +144,7 @@ public class OptionsPanel : MonoBehaviour
             changes[cmd].DynamicInvoke();
         }
 
-        OpenMainMenu();
+        ExitOptions();
     }
 
     public void CancelSettings()
@@ -158,7 +158,7 @@ public class OptionsPanel : MonoBehaviour
         SetFontScale(GameManager.Instance.cfg.fontScale);
         SetFontColor(GetCurrentColorId());
 
-        OpenMainMenu();
+        ExitOptions();
     }
 
     private void ExitOptions()
