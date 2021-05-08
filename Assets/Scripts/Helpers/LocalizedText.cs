@@ -43,6 +43,7 @@ public class LocalizedText : MonoBehaviour
     }
 }
 
+#if UNITY_EDITOR
 // Dropdown with localized strings
 [CustomEditor(typeof(LocalizedText))]
 [CanEditMultipleObjects]
@@ -83,3 +84,4 @@ public class LocalizedTextEditor : Editor
         serializedObject.ApplyModifiedProperties();
     }
 }
+#endif

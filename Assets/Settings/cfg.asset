@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f6543875017244699344c28732c398, type: 3}
   m_Name: cfg
   m_EditorClassIdentifier: 
-  localization: {fileID: 11400000, guid: 2637a29611179ca4f9ffa73874d7d776, type: 2}
-  musicVolume: 0.06571431
+  localization: {fileID: 11400000, guid: ec0aea426f4a6324a929d6000ea4142e, type: 2}
+  musicVolume: 0.5
   musicMono: 0
-  musicClip: {fileID: 8300000, guid: 1071a86b0e4f9a34c93999f973edee04, type: 3}
-  fontScale: 1.3342856
+  musicClip: {fileID: 8300000, guid: eb50ae4393eff6045bce387e13552be5, type: 3}
+  fontScale: 1
   fontColor:
-    name: Black
-    color: {r: 0, g: 0, b: 0, a: 1}
+    name: White
+    color: {r: 1, g: 1, b: 1, a: 1}
